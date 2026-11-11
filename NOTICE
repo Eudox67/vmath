@@ -1,0 +1,26 @@
+vmath - vector math
+Copyright 2026 Eudox67
+
+This product is a derivative work of mrMath:
+
+  mrMath - high-performance Delphi/Free Pascal matrix & numerical library
+  https://github.com/mikerabat/mrmath
+  http://www.mrsoft.org/
+  Copyright (c) 2011-2024 Michael Rabatscher. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+vmath derives from mrMath and retains the original copyright notices and
+the Apache License 2.0. It has been modified for Free Pascal
+({$mode objfpc}), with Delphi-specific components removed.
+
+This product requires the LightStrings package at build time:
+
+  LightStrings - lightweight, stack-based string handling for Free Pascal
+  Copyright 2026 Eudox67. All rights reserved.
+  Licensed under the MIT License (see the LightStrings distribution).
+
+LightStrings is not included in this repository: vmath only links the units
+(TStrList replaces TStringList in BaseMathPersistence and Matrix), and
+tools/setup.sh installs them from a separate checkout.
+
+vmath is an independent project.
