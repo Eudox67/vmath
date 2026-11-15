@@ -168,14 +168,8 @@ Yes. The usual combination is B + C: the installed package serves `fpc` and
 |---|:-:|:-:|:-:|
 | B only (installed) | yes | yes | **no** - only compiled units are installed |
 | A only (`@vmath.cfg`) | yes | with the same switches in the project | no |
-| C only (`vmath.lpk`) | with `-Fusrc` | yes | **yes** |
+| C only (`vmath.lpk`) | with `-Fu src` | yes | **yes** |
 | B + C | yes | yes | yes |
-
-`lazbuild` is a thin wrapper around `fpc`, so whatever compiles on the command
-line builds there too. The IDE's code tools need the `.pas` sources, which is
-the reason the package exists. When both are installed the command line wins:
-`-Fu` paths are searched before the ones in `fpc.cfg`, so a project that uses the
-package builds against `lib/x86_64-linux/`, not against the installed copy.
 
 ## Multi-threaded matrices (optional)
 
