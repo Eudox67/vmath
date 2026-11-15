@@ -1,5 +1,12 @@
 # Vmath (Vector Math): fast double-precision math for Free Pascal
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+![Free Pascal](https://img.shields.io/badge/Free_Pascal-3.2.2%2B-orange)
+![Lazarus](https://img.shields.io/badge/Lazarus-vmath.lpk-1E5AA8)
+![Platform](https://img.shields.io/badge/Platform-Linux_x86--64-555555?logo=linux&logoColor=white)
+![SIMD](https://img.shields.io/badge/SIMD-SSE2_%7C_AVX_%7C_FMA-007EC6)
+![Tests](https://img.shields.io/badge/FPCUnit-115_tests_(15_suites)-brightgreen)
+
 Vmath is a matrix and numerical library for Free Pascal. It gives you one
 matrix class (`TDoubleMatrix`) plus ready-made statistical, data-analysis and
 signal routines built on it. The heavy arithmetic is tuned assembler
