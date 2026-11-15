@@ -5,6 +5,7 @@
 ![Lazarus](https://img.shields.io/badge/Lazarus-vmath.lpk-1E5AA8)
 ![Platform](https://img.shields.io/badge/Platform-Linux_x86--64-555555?logo=linux&logoColor=white)
 ![SIMD](https://img.shields.io/badge/SIMD-SSE2_%7C_AVX_%7C_FMA-007EC6)
+[![Dependency](https://img.shields.io/badge/Dependency-LightStrings-teal)](#step-1-install-lightstrings)
 ![Tests](https://img.shields.io/badge/FPCUnit-115_tests_(15_suites)-brightgreen)
 
 Vmath is a matrix and numerical library for Free Pascal. It gives you one
